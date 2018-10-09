@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+    body, html {
+        margin: 0;
+        background: gray;
+        font-family: arial;
+        padding: 0;
+        color: #fff;/*temporary page text color*/
+    }
+
+    header {
+        width: 100%;
+        margin-top: -16px;
+    }
+
+    /** Main Navigation **/
+    #mainNav {
+        width: 100%;
+        height: auto;
+        background: #000;
+    }
+
+    #mainNav li {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    #mainNav a {
+        text-decoration: none;
+        color: #fff;
+    }
+    /** End - Main Navigation **/
+}
